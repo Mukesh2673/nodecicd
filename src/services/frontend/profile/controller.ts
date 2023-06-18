@@ -3,7 +3,7 @@ export const health = async (req: any) => {
     return {
       responseCode: 200,
       responseMessage: "Success",
-      data: 'working perfectdadfafdasdasdffff'
+      data: 'ci cd completed'
     };
   } catch (err) {
     return err;
